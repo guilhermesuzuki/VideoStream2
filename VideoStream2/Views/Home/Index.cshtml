@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    video {
+        width: 500px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h2>Solution 1: FilePathResult</h2>
+        <p>
+            <video src="~/Solution1" controls></video>
+        </p>
+    </div>
+    <div class="col-md-12 text-center">
+        <h2>Solution 2: FileStreamResult</h2>
+        <p>
+            <video src="~/Solution2" controls></video>
+        </p>
+    </div>
+    <div class="col-md-12 text-center">
+        <h2>Solution 3: API Controller and WriteContentToStream</h2>
+        <p>
+            <video src="~/api/Solution3/Index" controls></video>
+        </p>
+    </div>
+    <div class="col-md-12 text-center">
+        <h2>Final Solution: StaticFileHandler</h2>
+        <p>
+            <video src="~/Solution4" controls></video>
+        </p>
+    </div>
+</div>
